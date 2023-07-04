@@ -57,7 +57,7 @@ export default function App() {
             <div className="header-section">
                 <div className="loc-date">
                     <h5 className="location">{location}</h5>
-                    <h5 className="date">{today.getDate()} - {today.getMonth()} - {today.getFullYear()}</h5>
+                    <h5 className="date">{today.getDate()} - {today.getMonth() + 1} - {today.getFullYear()}</h5>
                 </div>
                 <form className="search-box" onSubmit={(event) => {
                     event.preventDefault();
